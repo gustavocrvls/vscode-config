@@ -1,0 +1,85 @@
+{
+  "workbench.iconTheme": "symbols",
+  "git.autofetch": true,
+  "editor.fontFamily": "'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 1.5,
+  "editor.renderLineHighlight": "gutter",
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "editor.semanticHighlighting.enabled": false,
+  "editor.tabSize": 2,
+  "explorer.compactFolders": false,
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "domain": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe",
+    "providers": "include",
+    "subscribers": "messages",
+    "useCases": "controller",
+    "kafka": "scripts",
+    "mappers": "meta",
+    "_shared": "shared",
+    "eslint-config": "tools",
+    "kube": "kubernetes"
+  },
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    "*.proto": "3d",
+    "*.webpack.js": "webpack"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "gitlens.advanced.messages": {
+    "suppressGitMissingWarning": true
+  },
+  "window.menuBarVisibility": "compact",
+  "editor.fontSize": 14,
+  "python.pythonPath": "/bin/python3",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.titleBarStyle": "custom",
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "gitlens.gitCommands.skipConfirmations": [
+    "fetch:command",
+    "stash-push:command",
+    "switch:command",
+    "push:command"
+  ],
+  "editor.suggestSelection": "first",
+  "git.confirmSync": false,
+  "files.exclude": {
+    "**/node_modules/**": true
+  },
+  "editor.formatOnSave": true,
+  "workbench.colorTheme": "Andromeda",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.minimap.enabled": false,
+  "symbols.hidesExplorerArrows": false,
+}
